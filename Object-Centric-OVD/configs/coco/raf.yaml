@@ -1,0 +1,8 @@
+_BASE_: "ral.yaml"
+OUTPUT_DIR: "output/coco_ralf"
+MODEL:
+  WEIGHTS: "output/coco_ral/model_final.pth"
+USE_RAF: True
+RAF_BOX_LEVEL: True
+RAF_TOPK: 1
+RAF_WEIGHT: "ralf/coco_strict.pth"
