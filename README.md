@@ -85,3 +85,14 @@ The checkpoints for RALF are available [here](https://drive.google.com/drive/fol
 |---|---|
 |OADP + RAL| 21.5 |
 |OADP + RALF| 21.9 |
+
+## RALF demo
+To view demo results of applying RALF to an image or video, run the below commands.
+### Image
+```
+torchrun --nproc_per_node=1 -m oadp.dp.demo ./configs/dp/ralf/raf/lvis_raf.py work_dirs/lvis_ral/epoch_24.pth --image demo/input/sample.jpg
+```
+### Video
+```
+torchrun --nproc_per_node=1 -m oadp.dp.demo ./configs/dp/ralf/raf/lvis_raf.py work_dirs/lvis_ral/epoch_24.pth --video demo/input/sample.mp4
+```
