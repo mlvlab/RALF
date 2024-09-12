@@ -1,4 +1,4 @@
-# RALF
+# Retrieval-Augmented Open-Vocabulary Object Detection
 This is the official implementation of CVPR 2024 paper "[Retrieval-Augmented Open-Vocabulary Object Detection](https://arxiv.org/abs/2404.05687)".
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/retrieval-augmented-open-vocabulary-object/open-vocabulary-object-detection-on-mscoco)](https://paperswithcode.com/sota/open-vocabulary-object-detection-on-mscoco?p=retrieval-augmented-open-vocabulary-object)
