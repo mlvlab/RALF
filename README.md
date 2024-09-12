@@ -1,6 +1,6 @@
 # RALF
 Official implementation of CVPR 2024 paper "[Retrieval-Augmented Open-Vocabulary Object Detection](https://arxiv.org/abs/2404.05687)".
-
+![ralf_figure](https://github.com/user-attachments/assets/09e8ac36-135e-42cd-a6f2-877288e4a3da)
 ## Introduction
 
 RALF is structured into multiple branches.
